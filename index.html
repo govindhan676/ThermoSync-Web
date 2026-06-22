@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ThermoSync Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="navbar">
+        <a href="index.html">Dashboard</a>
+        <a href="history.html">History</a>
+        <a href="analytics.html">Analytics</a>
+    </div>
+
+    <h1>🌡️ ThermoSync</h1>
+
+    <div class="card current-card full-width">
+        <h2>Current Temperature</h2>
+
+        <div id="temperature">Loading...</div>
+
+        <div class="gauge-container">
+            <div class="gauge-fill" id="gaugeFill"></div>
+        </div>
+
+        <div id="gaugeValue">0 °C</div>
+    </div>
+
+    <div class="alert-box" id="alertBox">
+        Temperature Normal
+    </div>
+
+    <div class="dashboard-grid">
+
+        <div class="card">
+            <h2>Status</h2>
+            <div id="statusText">Checking...</div>
+        </div>
+
+        <div class="card">
+            <h2>Last Updated</h2>
+            <div id="timestamp">Loading...</div>
+        </div>
+
+        <div class="card">
+            <h2>Average Temperature</h2>
+            <div id="avgTemp">0 °C</div>
+        </div>
+
+        <div class="card">
+            <h2>Highest Temperature</h2>
+            <div id="maxTemp">0 °C</div>
+        </div>
+
+        <div class="card">
+            <h2>Lowest Temperature</h2>
+            <div id="minTemp">0 °C</div>
+        </div>
+
+        <div class="card">
+            <h2>Live Clock</h2>
+            <div id="liveClock">Loading...</div>
+        </div>
+
+        <div class="card">
+            <h2>System Health</h2>
+            <p id="feedStatus">Checking...</p>
+            <p id="syncStatus">Waiting...</p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
