@@ -30,6 +30,6 @@ Govindhan S
 
 B.E Electronics and Communication Engineering
 
-Coimbatore, Tamilnadu, India
-
 Suguna College of Engineering
+
+Coimbatore, Tamilnadu, India
